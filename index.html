@@ -60,9 +60,9 @@
   </div>
 </div>
 <div>
-<script>
-  var jsonData = {
-    images: [
+  <script>
+    var jsonData = {
+      images: [
         './jfif/cat0.jfif',
         './jfif/cat0.jfif',
         './jfif/cat0.jfif',
@@ -75,7 +75,7 @@
         './jfif/cat2.jfif',
         './jfif/cat2.jfif',
         './jfif/cat2.jfif',
-        ]
+      ]
     };
 
     function simulateDatabaseQuery(callback) {
@@ -110,10 +110,11 @@
     }
 
     document.addEventListener('DOMContentLoaded', loadImages);
-
-
   </script>
- </div>
-</div>
+</head>
+<body>
+  <!-- Rest des HTML-Codes hier -->
+  <div id="loading">Lade...</div>
+  <div id="imageGrid"></div>
 </body>
 </html>
